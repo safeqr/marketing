@@ -1,4 +1,4 @@
-Safe QR marketing app for FYP-24-S2-43P
+# Safe QR marketing app for FYP-24-S2-43P
 
 # Getting Started with Create React App
 

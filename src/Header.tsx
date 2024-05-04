@@ -21,7 +21,7 @@ const Header: React.FC = () => {
     return (
         <nav className="navbar navbar-expand-lg banner">
             <div className="container">
-                <img src="../marketing/images/logo.png" alt="logo" />
+                <img src="../marketing/images/logo.png" alt="logo" width="160" height="80" />
                 <button
                     className="navbar-toggler"
                     type="button"

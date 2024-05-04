@@ -21,7 +21,7 @@ const Header: React.FC = () => {
     return (
         <nav className="navbar navbar-expand-lg banner">
             <div className="container">
-                <img src="../marketing/images/logo.png" alt="logo" className="logo-1" />
+                <img src="../marketing/images/logo.png" alt="logo" />
                 <button
                     className="navbar-toggler"
                     type="button"
@@ -73,16 +73,6 @@ const Header: React.FC = () => {
                                 data-scroll-nav="3"
                             >
                                 Team
-                            </a>{" "}
-                        </li>
-                        <li className="nav-item">
-                            {" "}
-                            <a
-                                className="nav-link"
-                                href="#"
-                                data-scroll-nav="4"
-                            >
-                                Testimonials
                             </a>{" "}
                         </li>
                         <li className="nav-item">

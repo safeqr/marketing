@@ -13,9 +13,16 @@ const About: React.FC = () => {
                             <h3>About</h3>
                             <span className="line"></span>
                             <p>
-                                Sed quis nisi nisi. Proin consectetur porttitor
-                                dui sit amet viverra. Fusce sit amet lorem
-                                faucibus, vestibulum ante in, pharetra ante.
+                            Currently, in the QR code security landscape, there is a gap in comprehensive protection against potential 
+                            threats posed by malicious QR codes. Existing solutions often provide basic functionality, such as scanning QR 
+                            codes to extract website URLs. However, these applications lack robust security measures to defend users against 
+                            various types of malicious content embedded within QR codes.
+                            </p>
+                            <p>
+                            Our intention with the SafeQR project is to bridge this gap by developing a comprehensive mobile application 
+                            that offers advanced security features for scanning and interacting with QR codes. Unlike existing solutions 
+                            that primarily focus on verifying website URLs, our app aims to take a more proactive and broad approach to QR 
+                            code security.
                             </p>
                         </div>
                         <div className="section-content text-center">
@@ -30,11 +37,9 @@ const About: React.FC = () => {
                                             className="fa fa-life-ring"
                                             aria-hidden="true"
                                         ></i>
-                                        <h5>Support</h5>
+                                        <h5>QR Code Scanning</h5>
                                         <p>
-                                            Phasellus lobortis justo a magna
-                                            facilisis, in commodo tellus rutrum.
-                                            Sed vitae condimentum nulla.
+                                        The application will have the capability to scan QR codes directly using a camera or from saved images.
                                         </p>
                                     </div>
                                 </div>
@@ -50,9 +55,8 @@ const About: React.FC = () => {
                                         ></i>
                                         <h5>Cross Platform</h5>
                                         <p>
-                                            Phasellus lobortis justo a magna
-                                            facilisis, in commodo tellus rutrum.
-                                            Sed vitae condimentum nulla.
+                                        Designed to function seamlessly on both iOS and Android platforms, ensuring a broad user base can 
+                                        benefit from the application's protective features.
                                         </p>
                                     </div>
                                 </div>
@@ -66,18 +70,17 @@ const About: React.FC = () => {
                                             className="fa fa-bolt"
                                             aria-hidden="true"
                                         ></i>
-                                        <h5>Fast</h5>
+                                        <h5>Sandboxing for Safe Browsing</h5>
                                         <p>
-                                            Phasellus lobortis justo a magna
-                                            facilisis, in commodo tellus rutrum.
-                                            Sed vitae condimentum nulla.
+                                        To enhance security, the application will open links in a sandboxed environment. This protected mode 
+                                        helps isolate and contain potential threats away from the user's device.
                                         </p>
                                     </div>
                                 </div>
                             </div>
-                            <a href="#" className="about-btn">
+                            <a href="#" data-scroll-nav="2" className="about-btn">
                                 Learn More
-                            </a>{" "}
+                            </a>
                         </div>
                     </div>
                 </div>

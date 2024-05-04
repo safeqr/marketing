@@ -9,7 +9,9 @@ const Team: React.FC = () => {
         <div className="sectioner-header text-center">
           <h3>Our Team</h3>
           <span className="line"></span>
-          <p>Our mission is to provide the most secured QR code scans to achieve your business or personal goals.</p>
+          <p>Our mission is to pioneer the development of a robust QR code security solution that not only safeguards users from malicious
+            activities but also fosters trust and confidence in QR code technology. We aim to achieve this by continuously innovating and 
+            adapting our solution to evolving threats while promoting collaboration and integration with other QR scanning applications.</p>
         </div>
         <div className="section-content text-center">
           <div className="row">

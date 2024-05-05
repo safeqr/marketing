@@ -28,14 +28,14 @@ const Team: React.FC = () => {
               </div>
             </div>
             <div className="col-md-3">
-              <div className="team-detail wow bounce" data-wow-delay="0.2s"> <img src="../marketing/images/user1.jpg" className="img-fluid"/>
+              <div className="team-detail wow bounce" data-wow-delay="0.2s"> <img src="../marketing/images/user4.jpg" className="img-fluid"/>
                 <h4>Seng Jin Hui</h4>
                 <p>Marketing Specialist, Backend Developer</p>
               </div>
             </div>
             <div className="col-md-3">
               <div className="team-detail wow bounce" data-wow-delay="0.4s"> <img src="../marketing/images/user2.jpg" className="img-fluid"/>
-                <h4>MUHAMMED ISKANDER SHAH</h4>
+                <h4>Muhammed Iskander Shah</h4>
                 <p>Team Leader, Full Stack Developer</p>
               </div>
             </div>

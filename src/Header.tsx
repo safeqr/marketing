@@ -5,7 +5,7 @@ const Header: React.FC = () => {
 
     useEffect(() => {
         function setFixed() {
-            if (window.scrollY > 0) {
+            if (window.scrollY > 50) {
                 setFix(true);
                 return;
             } 
@@ -19,9 +19,9 @@ const Header: React.FC = () => {
     }, []);
 
     return (
-        <nav className="navbar navbar-expand-lg banner">
+        <nav className={fix ? "navbar navbar-expand-lg nav-scroll": "navbar navbar-expand-lg banner"}>
             <div className="container">
-                <img src="../marketing/images/logo.png" alt="logo" width="160" height="80" />
+                <img src={fix ? "../marketing/images/logo-black.png" : "../marketing/images/logo.png"} alt="logo" width="160" height="80" />
                 <button
                     className="navbar-toggler"
                     type="button"

@@ -612,3 +612,16 @@ h3 {
 	font-size: 10px;
 }
 }
+
+.footer-link {
+    color: #FFFFFF; /* White text color for better contrast */
+    font-weight: 600; /* Bold the text slightly */
+    margin: 0 10px; /* Add some space between the links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.footer-link:hover {
+    color: #6C63FF; /* Change to a highlighted color on hover */
+    text-decoration: underline; /* Add underline on hover */
+}
